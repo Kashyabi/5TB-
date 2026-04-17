@@ -1,0 +1,25 @@
+mport java.util.Scanner;
+
+public class CompareSums {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter integer a: ");
+        int a = sc.nextInt();
+        System.out.print("Enter integer b: ");
+        int b = sc.nextInt();
+        System.out.print("Enter integer c: ");
+        int c = sc.nextInt();
+
+        int sum1 = a + b + c;
+
+        if (sum1 == 0 ) {
+            System.out.println("The sum cannot be zero");
+     
+        } else {
+            System.out.println("Sum of a+b+c (" + sum1 + ") is ");
+        }
+
+        sc.close();
+    }
+}
